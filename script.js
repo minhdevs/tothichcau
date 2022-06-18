@@ -127,7 +127,7 @@ const card2 = document.querySelector(".card2");
 const submit = document.querySelector(".submit");
 const audio = document.querySelector("audio");
 
-// audio.play();
+audio.play();
 
 no.onmouseover = function (e) {
   let left = Math.floor(Math.random() * 110) + 1;
